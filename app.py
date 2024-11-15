@@ -53,9 +53,9 @@ def replace_audio_file(filepath, filename):
     # JSON data correctly formatted
     audio_file_info = {
         "blobId": "",  # Asegúrate de que esto esté bien según los requisitos del API
-        "contentType": "audio/mpeg",  # Ajusta el content type según el archivo
+        "contentType": "audio/wav",  # Ajusta el content type según el archivo
         "createdTime": 0,
-        "id": "",  # Si necesitas pasar un ID válido
+        "id": "{ID FILE TO REMLACE}",  # Si necesitas pasar un ID válido
         "lastUpdatedTime": 0,
         "name": filename,  # Asegúrate de usar el nombre correcto del archivo
         "organizationId": "{YOU ORG ID}",
